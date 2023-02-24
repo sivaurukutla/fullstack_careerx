@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function diaplaybeverages(kinds) 
+        {
+            var hotbeverages=new Array("hot apple","kahwa","irish coffee","spiced rum");
+            var coldbeverages=["cold coffie","chocolate smooth","lemonade","lemon tea"];
+            if(kinds=="hot")
+            return hotbeverages;
+            else
+            return coldbeverages;
+
+        }
+        function loadmenu(kinds)
+        {
+            var beverages=displaybeverages(kinds);
+            document.getelementbyid("beverages").innerhtml="<ul>";
+                beverages.foreach(
+                    b=>{
+                        document.getelementbyid("beverages").innerhtml+="<li>"+b+"</li>";
+
+         });
+         document.getelementbyid("beverages").innarhtml+="</ul>";
+        }
+    </script>
+</head>
+<body>
+    <h1>list of beverages you may like to order:</h1>
+    <div id="beverages" style="border:5px solid green"></div>
+   
+    <input type="button" value="hot beverages" onclick="loadmenu('hot')"><br>
+     <input type="button" value="cold beverages" onclick="loadmenu('cold')">
+</body>
+</html>
