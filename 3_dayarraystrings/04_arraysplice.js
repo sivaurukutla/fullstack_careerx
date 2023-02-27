@@ -8,3 +8,12 @@ console.log(arr);
 
 arr.splice(4,2,'five');  //here 4 is an index
 console.log(arr)
+
+
+
+
+
+var colors=["red","green","blue","black"]
+console.log(colors)
+colors.splice(2,0,'orang');
+console.log(colors)

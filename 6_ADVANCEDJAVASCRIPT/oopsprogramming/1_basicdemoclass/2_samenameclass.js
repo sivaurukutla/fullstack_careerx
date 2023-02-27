@@ -39,7 +39,7 @@ console.log(this)
 }
 var p1=new people(101,"siva",7730907577);
     //console.log(p1.name)
-    p1.name="abc"// manupliation
+    p1.name="abcde"// manupliation
 var p2=new people(102,"satish",73736676)
 p1.show();
 p2.show();

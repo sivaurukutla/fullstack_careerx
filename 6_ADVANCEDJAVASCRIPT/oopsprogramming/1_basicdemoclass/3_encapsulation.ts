@@ -27,5 +27,6 @@ class myapplication
     }
 
 var m1=new myapplication(101,"siva",200000)
+
 console.log(m1);
 console.log(m1.getsalary());

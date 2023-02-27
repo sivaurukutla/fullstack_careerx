@@ -5,7 +5,7 @@ function fibo()
      v2="hello world";
     var v3=true;
     var v4=[10,20,30,40];
-    const pi=30.8;
+const pi=30.8;
     console.log("pi "+pi)
      pi=20.98;
     console.log("pi "+pi)

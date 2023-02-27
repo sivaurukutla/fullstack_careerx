@@ -2,8 +2,8 @@ var countries=["INDIA","AMERICA","CANADA","RUSSIA","ITALI","ROME"];
 
 countries.forEach(country=>console.log(country.toLowerCase()+ ":"+country.length));
 
-var crt=countries.filter(country=>country.includes('A'));
-console.log(ctr);
+var coun=countries.filter(country=>country.includes('A'));
+console.log(coun);
 
 
 

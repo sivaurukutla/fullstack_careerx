@@ -35,6 +35,25 @@
         <div id="heading" style="border: 2px dashed blueviolet"></div>
     </div>
 
+
+
+
+    <div>
+        <h1> this is the practice code</h1>
+        <input type="button" value="message" onclick="addmessage()">
+
+        <div id="message" style="border:2px solid mediumorchid ; height:300; width:300 "></div>
+    </div>
+    <script>
+        function addmessage(){
+            var m=document.createElement('m');
+            var n=document.createTextNode('this is my practice' );
+            m.appendChild(n);
+            var h=document.getElementById('message');
+            h.appendChild(m)
+        }
+    </script>
+
     
 </body>
 </html>

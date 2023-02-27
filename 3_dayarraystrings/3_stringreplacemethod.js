@@ -10,6 +10,13 @@ console.log(sentence);
 
 
  console.log(substring);
+
+
+
+ var employee="front end developer"
+  console.log(employee)
+ emp=employee.replace('front end developer','full stack developer');
+ console.log(emp);
  
 
 
